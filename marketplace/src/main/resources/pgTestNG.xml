@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite FP API" parallel="classes" thread-count="3">
+    <listeners>
+        <listener class-name="listeners.AnnotationTransformer"></listener>
+        <listener class-name="listeners.TestNGCustomReportListener"></listener>
+    </listeners>
+    <test name="PayGro" >
+        <classes>
+            <class name="testcaseui.AdminTest"></class>
+            <class name="testcaseui.DistributorCompanyTest"></class>
+        </classes>
+    </test> <!-- PayGro -->
+</suite> <!-- Test Suite PayGro -->

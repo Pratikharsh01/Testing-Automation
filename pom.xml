@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.conqudel.uaf</groupId>
+    <artifactId>uaf</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>common-module</module>
+        <module>marketplace</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <selenium.java.version>4.11.0</selenium.java.version>
+        <aspectj.version>1.9.8</aspectj.version>
+        <aspectj.core.version>3.23.1</aspectj.core.version>
+        <log4j.version>1.2.17</log4j.version>
+        <testng.version>7.6.1</testng.version>
+        <allure.testng.version>2.20.0</allure.testng.version>
+        <allure.maven.version>2.11.2</allure.maven.version>
+        <webdrivermanager.version>5.5.3</webdrivermanager.version>
+        <maven-surefire-plugin-version>3.0.0-M5</maven-surefire-plugin-version>
+        <suitexml></suitexml>
+        <browser></browser>
+        <username></username>
+        <password></password>
+        <apiusername></apiusername>
+        <apipassword></apipassword>
+    </properties>
+
+
+</project>
